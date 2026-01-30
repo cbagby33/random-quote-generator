@@ -8,6 +8,7 @@ class QuoteBox extends React.Component {
     this.state = {
       quote: '',
       author: '',
+      occupation:'',
       color:''
     }
   }
