@@ -43,6 +43,7 @@
 #tweet-quote{
   width: auto;
   cursor: pointer;
+  text-decoration: none;
 }
 #new-quote{
   border: none;

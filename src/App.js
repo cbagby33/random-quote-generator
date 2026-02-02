@@ -63,7 +63,7 @@ class QuoteBox extends React.Component {
           </div>
           <div id="button-container">
             <div className="social-buttons">
-              <a id="tweet-quote"><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
+              <a id="tweet-quote" style={{color: `${ this.state.color }`}} href={`https://twitter.com/intent/tweet?text=${this.state.quote}`}><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
             </div>
             <button id="new-quote" onClick={this.newQuote} style={{backgroundColor: `${ this.state.color }`}}>New Quote</button>
           </div>
