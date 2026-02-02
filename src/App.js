@@ -5,12 +5,6 @@ import * as data from './quotes.json'
 // React dependencies
 import React from 'react';
 
-// Redux dependencies
-import { Provider, connect } from 'react-redux'
-import { createStore, combineReducers, applyMiddleware } from 'redux'
-import thunk from 'redux-thunk'
-import rootReducer from './redux/reducers'
-
 // Font Awesome dependencies
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -31,8 +25,6 @@ const generateRandomQuote = () => {
   const randIdx = Math.floor(Math.random() * quotes.length)
   return quotes[randIdx];
 }
-
-//React: 
 
 // Quote box component
 class QuoteBox extends React.Component {
