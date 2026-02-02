@@ -2,18 +2,54 @@
   text-align: center;
 }
 
-.inner-container {
+#inner-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1.25em;
   color: black;
 }
 
 #quote-box {
   min-height: 150px;
-  width: 450px;
+  width: 350px;
+  padding: 50px;
   background-color: #fff;
+  border-radius: 10px;
+  text-align: left;
+}
+.bold-text{
+  font-weight: bold;
+}
+#author-container{
+  text-align: right;
+}
+#author{
+  font-size: .75em;
+}
+#occupation{
+  font-size: .5em;
+  text-transform: capitalize;
+}
+#button-container{
+  display: flex;
+  flex-direction: row;
+}
+.social-buttons{
+  flex: 2;
+}
+#tweet-quote{
+  width: auto;
+  cursor: pointer;
+}
+#new-quote{
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+#author-container{
+  padding: 0 0 .75em 0;
 }
